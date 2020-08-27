@@ -1,0 +1,58 @@
+form {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: start;
+}
+
+fieldset {
+  margin: 0;
+  border-radius: 10px;
+  width: 40%;
+}
+
+input {
+  border: none;
+  background: hsl(0 0% 93%);
+  border-radius: 0.25em;
+  padding: 10px;
+  height: 16px;
+  margin: 10px;
+  width: 30em;
+}
+
+select {
+  border: none;
+  background: hsl(0 0% 93%);
+  border-radius: 0.25em;
+  width: 30em;
+  padding: 10px;
+}
+
+.text__input {
+  display: flex;
+  align-items: center;
+}
+
+label {
+  margin-right: 10px;
+}
+
+.pre__styling {
+  background-color: darkgray;
+  color: white;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+button[type="submit"] {
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(111, 0, 255);
+  margin-bottom: 20px;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+}
